@@ -1,21 +1,22 @@
 # EW-FilePartUpload
 
 # Project Name
-    Uppload file part and combine file store to EKV
+  
+  Uppload file part and combine file store to EKV
 
 # Description
 
 
 # Test request and response
 
-    1、uplaod any file part without file part order.
-    2、when the file part count is completed
-    3、check the file content and md5
+  1、uplaod any file part without file part order.
+  2、when the file part count is completed
+  3、check the file content and md5
 
-    Example:
-    1、request: https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=0&filePartContent=APJ
+  Example:
+  1、request: https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=0&filePartContent=APJ
 
-    response:
+  response:
     ```
     {
         "fileName": "ewcc28",
@@ -34,8 +35,8 @@
         "fileMD": {}
     }
     ```
-    2、request: https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=3&filePartContent=Challenge
-    response:
+  2、request: https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=3&filePartContent=Challenge
+  response:
     ```
     {
         "fileName": "ewcc28",
