@@ -30,11 +30,11 @@ server.
   In order to avoid the problem of restarting the upload from the beginning due to the deletion of the progress data of the client after uploading, in the example, the client is queried for the uploaded fragmented data through the return value of the upload.
 In this way, the client knows the fragmented data that has been uploaded, so that the uploading continues from the next fragmented data.
 
-  The front-end page (client) needs to shard the file according to a fixed size, and the shard serial number and shard content should be included when requesting EdgeWorker
+    The front-end page (client) needs to shard the file according to a fixed size, and the shard serial number and shard content should be included when requesting EdgeWorker
     
-  EdgeWorker creates and uses EKV to store each shard number and shard content.
+    EdgeWorker creates and uses EKV to store each shard number and shard content.
     
-  EdgeWorker calculates the starting position according to the fragment sequence number given in the request data, and the read file fragment data. When all fragments are uploaded, the composite file information is written to the CDN.
+    EdgeWorker calculates the starting position according to the fragment sequence number given in the request data, and the read file fragment data. When all fragments are uploaded, the composite file information is written to the CDN.
 
 
 # Test request and response
