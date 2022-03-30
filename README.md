@@ -17,7 +17,7 @@ server.
 
   1. What is multipart upload
 
-  Partial upload is to divide the file to be uploaded into multiple data blocks (we call it Part) according to a certain size for uploading separately. After uploading, EdgeWorker aggregates and integrates all uploaded files into original files.
+    Partial upload is to divide the file to be uploaded into multiple data blocks (we call it Part) according to a certain size for uploading separately. After uploading, EdgeWorker aggregates and integrates all uploaded files into original files.
 
   2. Scenario of multi-part upload
         
