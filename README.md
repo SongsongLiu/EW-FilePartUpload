@@ -68,24 +68,24 @@
     }
     ```
 
-    Request Param
-    |Name|Description|
-    |---|---|
-    |fileName| file name|
-    |filePartCount| the count of filepart |
-    |fileMD5| this param to check file combine completed |
-    |filePartIndex| file part index, it to use combine file order|
-    |filePartContent| file part content|
+  Request Param:
+  Name|Description
+  ---|---
+  fileName| file name
+  filePartCount| the count of filepart 
+  fileMD5| this param to check file combine completed 
+  filePartIndex| file part index, it to use combine file order
+  filePartContent| file part content
 
-    Respine Param
-    |Name|Description|
-    |---|---|
-    |fileName| this is from the request.query, to test get the params |
-    |filePartCount| this is from the request.query, to test get the params |
-    |filePartIndex| this is from the request.query, to test get the params |
-    |partJsonStr | Number of existing data in EKV |
-    |partJson | EKV data to JSON, use JSON.parse(partJsonStr)|
-    |partCount | Number of existing part data in EKV|
-    |errMsg | Program running error log|
-    |success| Successfully identified the composition file|
-    |fileMD| Metadata of final file |
+  Respine Param:
+  Name|Description
+  ---|---
+  fileName| this is from the request.query, to test get the params 
+  filePartCount| this is from the request.query, to test get the params 
+  filePartIndex| this is from the request.query, to test get the params 
+  partJsonStr | Number of existing data in EKV 
+  partJson | EKV data to JSON, use JSON.parse(partJsonStr)
+  partCount | Number of existing part data in EKV
+  errMsg | Program running error log
+  success| Successfully identified the composition file
+  fileMD| Metadata of final file
