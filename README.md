@@ -1,3 +1,5 @@
+[TOC]
+
 # EW-FilePartUpload
 
 # Project Name
@@ -19,9 +21,9 @@ server.
 
   2. Scenario of multi-part upload
         
-  a. Large file upload
+    a. Large file upload
 
-  b. The network environment is not good and there is a risk of retransmission
+    b. The network environment is not good and there is a risk of retransmission
 
   During the multipart upload process, if the upload is interrupted due to abnormal factors such as system crash or network interruption, the client needs to record the upload progress. When re-uploading is supported in the future, you can continue uploading from the place where the fragment was interrupted in the last upload.
     
