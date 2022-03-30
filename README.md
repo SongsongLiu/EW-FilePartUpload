@@ -10,7 +10,9 @@
 # Test request and response
 
   1、uplaod any file part without file part order.
-  2、when the file part count is completed
+  
+  2、when the file part count is completed、
+  
   3、check the file content and md5
 
   Example:
