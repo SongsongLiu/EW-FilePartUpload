@@ -14,7 +14,10 @@
   3、check the file content and md5
 
   Example:
-  1、request: https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=0&filePartContent=APJ
+  
+  1、request: 
+  
+  https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=0&filePartContent=APJ
 
   response:
   ```
@@ -35,7 +38,10 @@
         "fileMD": {}
     }
   ```
-  2、request: https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=3&filePartContent=Challenge
+  2、request: 
+  
+  https://ewcc28.ewcc.in//filePartUpload?fileName=ewcc28&filePartCount=4&fileMD5=APJEdgeWorkersCodingChallenge&filePartIndex=3&filePartContent=Challenge
+  
   response:
   ```
     {
